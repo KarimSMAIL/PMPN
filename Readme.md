@@ -1,4 +1,4 @@
-#Décomposition en valeurs singulières SVD
+# Décomposition en valeurs singulières SVD
 Cet archive contient les fichiers suivants: 
 
 - svd_lanlk.c : contient l'algorithme de bidiagonalisation et l'utilisation des routines lapack pour la décomposition spectrale de la matrice tridiagonale obtenu.

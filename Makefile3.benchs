@@ -1,0 +1,11 @@
+
+DIM_M = 1000
+DIM_N = 100
+
+NUMBER_EXPERIMENTS = 10
+REPETITIONS	    = 10
+
+CC = gcc
+all:
+	$(CC) benchs.c -D_SVD2_BENCHS_ -o svd2 -lm -llapacke
+	./svd1  $(DIM_M) $(DIM_N) $(NUMBER_EXPERIMENTS) $(REPETITIONS)
